@@ -1,4 +1,4 @@
-split.cpp grade_split.cpp -o grade_split `pkg-config --cflags --libs gtest`
+g++ split.cpp grade_split.cpp -o grade_split `pkg-config --cflags --libs gtest`
  TOTAL=12
  retVal=$?
      if [ $retVal -eq 0 ]
